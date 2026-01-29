@@ -50,7 +50,7 @@ The [**mid-range**][mid-range], or **mid-extreme**, is the arithmetic mean of th
 ## Usage
 
 ```javascript
-import dmidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmidrange@deno/mod.js';
+import dmidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmidrange@v0.1.0-deno/mod.js';
 ```
 
 #### dmidrange( N, x, strideX )
@@ -147,7 +147,7 @@ var v = dmidrange.ndarray( 4, x, 2, 1 );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import dmidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmidrange@deno/mod.js';
+import dmidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmidrange@v0.1.0-deno/mod.js';
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
