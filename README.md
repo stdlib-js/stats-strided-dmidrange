@@ -50,6 +50,11 @@ The [**mid-range**][mid-range], or **mid-extreme**, is the arithmetic mean of th
 ## Usage
 
 ```javascript
+import dmidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmidrange@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-dmidrange/tags). For example,
+
+```javascript
 import dmidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmidrange@v0.1.1-esm/index.mjs';
 ```
 
@@ -152,7 +157,7 @@ var v = dmidrange.ndarray( 4, x, 2, 1 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import dmidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmidrange@v0.1.1-esm/index.mjs';
+import dmidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dmidrange@esm/index.mjs';
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
